@@ -6,29 +6,19 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-      integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-      integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo="
-      crossorigin="anonymous"
-    />
+
     <link rel="stylesheet" href="css/style.css" />
+
     <title>Glozzom</title>
   </head>
   <body>
@@ -50,11 +40,11 @@
               <a href="index.html" class="nav-link">Home</a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="about.html" class="nav-link">About Us</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="services.html" class="nav-link">Services</a>
             </li>
 
@@ -90,12 +80,82 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="card-text-center">
+            <div class="card text-center">
               <div class="card-header bg-dark text-white">
                 <h3>Service Plan One</h3>
               </div>
               <div class="card-body">
                 <h4 class="card-title">₹250/Month</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Harum, deserunt.
+                </p>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fas fa-check"></i> Feature One
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-check"></i> Feature Two
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-times"></i> Feature Three
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-times"></i> Feature Four
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-times"></i> Feature Five
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
+              </div>
+              <div class="card-footer text-muted">
+                1 Year Plan
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header bg-dark text-white">
+                <h3>Service Plan Two</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">₹499/Month</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Harum, deserunt.
+                </p>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fas fa-check"></i>Feature One
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-check"></i>Feature Two
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-check"></i>Feature Three
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-times"></i>Feature Four
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-times"></i>Feature Five
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
+              </div>
+              <div class="card-footer text-muted">
+                1 Year Plan
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header bg-dark text-white">
+                <h3>Service Plan Three</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">₹999/Month</h4>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Harum, deserunt.
@@ -124,8 +184,63 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section id="faq" class="p-5 bg-dark text-white">
+      <div class="container">
+        <h1 class="text-center">FAQ</h1>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a
+                      href="#collapseOne"
+                      data-toggle="collapse"
+                     
+                      >Question One</a
+                    >
+                  </h5>
+                </div>
+
+                <div class="collapse" id="collapseOne"  data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, autem!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a
+                      href="#collapseTwo"
+                      data-toggle="collapse"
+                     
+                      >Question Two</a
+                    >
+                  </h5>
+                </div>
+
+                <div class="collapse" id="collapseTwo"  data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, autem!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </section>

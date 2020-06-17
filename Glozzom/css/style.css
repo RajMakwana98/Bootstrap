@@ -80,3 +80,22 @@ body {
   position: absolute;
   right: 30px;
 }
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+footer#main-footer {
+  background: #333;
+  color: white;
+}
